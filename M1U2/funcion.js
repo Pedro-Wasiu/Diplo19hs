@@ -15,3 +15,19 @@ function restar() {
 
 
 let primerNumero = null
+let operacion = null
+
+function sumar() {
+    primerNumero = Number(pantalla.value);
+    operacion = "+"
+    pantalla.value = ""
+}
+
+function calcular() {
+    if (operacion === '+') {
+        let segundoNumero = Number (pantalla.value);
+        let resultado = primerNumero + segundoNumero;
+        pantalla.value = resultado;
+    }
+
+}
