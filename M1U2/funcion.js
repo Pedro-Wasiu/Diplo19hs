@@ -16,6 +16,8 @@ function restar() {
 
 let primerNumero = null
 let operacion = null
+let segundoNumero = null
+let resultado = null
 
 function sumar() {
     primerNumero = Number(pantalla.value);
@@ -23,10 +25,22 @@ function sumar() {
     pantalla.value = ""
 }
 
+function restar() {
+    primerNumero = Number(pantalla.value);
+    operacion = "-"
+    pantalla.value = ""
+}
+
 function calcular() {
     if (operacion === '+') {
-        let segundoNumero = Number (pantalla.value);
-        let resultado = primerNumero + segundoNumero;
+        segundoNumero = Number (pantalla.value);
+        resultado = primerNumero + segundoNumero;
+        pantalla.value = resultado;
+    }
+
+    else if (operacion === '-') {
+        segundoNumero = Number (pantalla.value);
+        resultado = primerNumero - segundoNumero;
         pantalla.value = resultado;
     }
 
