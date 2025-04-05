@@ -1,0 +1,70 @@
+.contenedor-producto {
+  background: white;
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.imagen-producto {
+  width: 200px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.precios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.precio-anterior {
+  text-decoration: line-through;
+  color: #777;
+  margin-right: 15px;
+}
+
+.descuento {
+  background: red;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.precio-actual {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+h2{
+  color: black;
+}
+.stock {
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.boton-comprar {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.boton-comprar:hover {
+  background: #45a049;
+}
+
+.mensaje {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
