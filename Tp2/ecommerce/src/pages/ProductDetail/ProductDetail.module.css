@@ -1,0 +1,134 @@
+.productDetailContainer {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.productImageContainer {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productImage {
+    max-width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+.productInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.productTitle {
+    font-size: 2rem;
+    color: #333;
+    margin: 0;
+}
+
+.priceContainer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.productPrice {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #2a9d8f;
+}
+
+.discountBadge {
+    background: #ff6b6b;
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.star {
+    color: #ffc107;
+    font-size: 1.2rem;
+}
+
+.ratingCount {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.productDescription {
+    color: #555;
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+.actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.buyButton {
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buyButton:hover {
+    background-color: #21867a;
+    transform: translateY(-2px);
+}
+
+.cartButton {
+    background-color: #f8f9fa;
+    color: #333;
+    border: 1px solid #ddd;
+    padding: 0.8rem 1.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.cartButton:hover {
+    background-color: #e9ecef;
+}
+
+.productMeta {
+    margin-top: 1rem;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.loading, .error, .notFound {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.2rem;
+}
+
+.error {
+    color: #dc3545;
+}
