@@ -4,7 +4,7 @@
     margin: 0 auto;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #333;
-    padding-bottom: 60px; /* Espacio adicional en la parte inferior */
+    padding-bottom: 60px; 
 }
 
 /* Hero Banner */
@@ -49,7 +49,6 @@
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Productos Destacados - Corregido */
 .featuredSection {
     padding: 0 20px;
     margin-bottom: 60px;
