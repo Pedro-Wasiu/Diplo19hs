@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './Login.css'; // ✅ Asegurate de tener el CSS vinculado
+import './Login.css'; 
 
 export default function Login() {
   const [email, setEmail] = useState('');

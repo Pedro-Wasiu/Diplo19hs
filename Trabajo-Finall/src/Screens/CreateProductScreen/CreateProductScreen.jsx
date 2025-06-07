@@ -10,7 +10,7 @@ export default function CreateProductScreen() {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Nuevo producto:", { name, price, description, image });
-    // Acá podrías llamar a un servicio que guarde el producto en Firebase, por ejemplo.
+    
   };
 
   return (
