@@ -1,0 +1,30 @@
+.product-container {
+  padding: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.product-container h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.product-container p {
+  margin: 0.5rem 0;
+  color: #555;
+}
+
+.product-container img {
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
+
+.product-container a {
+  display: inline-block;
+  margin-top: 1.5rem;
+  color: #007bff;
+  text-decoration: none;
+}
